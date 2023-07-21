@@ -1,20 +1,66 @@
 <!DOCTYPE html>
 <html>
 
-
    <head>
       <title> Bookrary </title>
-   </head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lime;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+
+@keyframes example {
+  0%   {background-color:lime; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:lime; left:0px; top:0px;}
+}
+
+h1{
+  color:blue;
+  font-family:Calibri;
+}
+
+p{
+  color:white;
+  font-family:Calibri;
+</style>
+</head>
 
 
    <body style="background-color:red;">
    <!--to set the background color-->
-     <p style="color:blue;font-family:Calibri;font-size:30px;backgrond-color:lime"><b>Welcome to the Bookrary.<img src="Bookrary.jpg" width="100"height="30"></b></p>
-<hr style="border:"30";color:white;">
-     <p style="font-family:Calibri;color:white;">You can join with us for more fun in <a href="file:///D:/Ayush/Ayush%20HTML/Bookrary%20login.html.">Bookrary login</a></p>
-     <p style="font-family: Calibri;color:white;">after login, you can buy many boohs and get amazing imaginations.</p>
-     <p style="font-family: Calibri;color:white;">for finding more, you can write in here
-     <input type"text" id="Search"><button type="button">Search</button></p>
+     <h1>Welcome to the Bookrary:one of the Ayush poduction<img src="D:\Ayush\Bookrary.jpg" height="30" width="100"</h1>
+<hr style="border:"30";color:white">
+     <p>You can join ith us for un in <a href="file:///D:/Ayush/Ayush%20HTML/Bookrary%20login.html.">Bookrary login</a></p>
+     <p>after login, you can buy many books and get amazing imaginations.</p>
+     <p>for finding more, you can write in here
+     <input type="text"><button type="button">Search</button></p><br>
+<div></div>
+     <h1 style="font-family:Calibri;color:white;" align="center">here       are some    books listed below</h1>
+     <table border="5" width="100%" style="font-family:calibri;color:white;"id="home">
+      
+      <tr>
+        <th>Name of the Comic</th>
+        <th>Price</th>
+     </tr>
+
+     <tr>
+       <td><a href=file:///D:/Ayush/Ayush%20HTML/Bookrary%20-%20Math%20of%20the%20year.html>Math of the year:Season 1</a></td>
+       <td>$100</td>
+     </tr>
+
+     <tr>
+      <td>wonderland</td>
+      <td>$99</td>
+     </tr>
+
    </body>
 
 
